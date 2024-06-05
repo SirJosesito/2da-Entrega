@@ -1,0 +1,42 @@
+/* ESTILOS DE LA BARRA DE NAVEGACION */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 75px 5px 75px;
+}
+
+.botonera-nav ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.botonera-nav ul li{
+    display: inline;
+    margin: 0px 50px;
+}
+
+.botonera-nav ul li a{
+    text-decoration: none;
+    color: rgb(47, 10, 82);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.botonera-nav ul li a:hover{
+    color: #FF5A60;
+    transition: 0.2s;
+}
+
+.inicio-sesion-nav a{
+    text-decoration: none;
+    color: #FF5A60;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#logo-airbnb{
+    height: 30px;
+}

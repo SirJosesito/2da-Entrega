@@ -1,0 +1,63 @@
+.contenedor-seccion-lupa{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra-seccion-lupa{
+    width: 50%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+}
+.barra-seccion-lupa ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.barra-seccion-lupa li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 10px;
+}
+
+.barra-seccion-lupa p {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    margin-bottom: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.input-seccion-lupa {
+    width: 100%;
+    box-sizing: border-box;
+    color: grey;
+    font-size: 1em;
+    border: 0;
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Estilo del icono de búsqueda */
+.barra-seccion-lupa li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.material-symbols-outlined {
+    font-size: 35px;
+}

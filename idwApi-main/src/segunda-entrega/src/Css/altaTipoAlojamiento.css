@@ -1,0 +1,30 @@
+
+#descripcion{
+    border-radius: 7px;
+    height: 30px;
+    margin: 5px;
+    width: 300px;
+    border-color: #fbb7c2;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.botonAlta{
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #fbb7c2;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.botonAlta:hover{
+    background-color: #ff433c;
+    transition: 0.2s;
+}
+.contenedorAddAlojamientos{
+    text-align: center;
+    margin-bottom: 50px;
+}

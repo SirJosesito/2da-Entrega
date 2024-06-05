@@ -1,0 +1,20 @@
+
+.texto-sn{
+    box-sizing: border-box;
+    margin: 50px;
+}
+
+.titulo-quienes-somos{
+    font-size: 3em;
+    color: #FF5A60;
+    text-align: start;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.parrafo-quienes-somos{
+    text-align: start;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}

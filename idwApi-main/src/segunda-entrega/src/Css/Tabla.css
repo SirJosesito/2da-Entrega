@@ -1,0 +1,21 @@
+table {
+    width: 70%;
+    background-color: #f0f0f0;
+    margin: auto;
+ }
+ th, td {
+    width: 25%;
+    text-align: center;
+ }
+
+ tbody tr:nth-child(odd) {
+    background-color: #cab7d4;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #fbb7c2;
+  }
+  
+  tbody tr {
+    background-image: url(noise.png);
+  }
